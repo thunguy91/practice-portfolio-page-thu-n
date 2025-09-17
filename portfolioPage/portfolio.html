@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Thu Nguyen</h1>
+        <p>Aspiring Web Developer</p>
+    </header>
+
+    <!-- "About Me" Section -->
+     <main>
+        <h2>About Me</h2>
+        <p> Hello! I am proud mom of two living in <strong>Philadelphia, PA</strong>.
+            An aspiring web developer, I've always loved being creative and solving problems.
+            My passion is to build websites that are fun but also meaningful as well as user-friendly.
+            Some of my hobbies include:
+            <ul>
+                <li>Food Crawls</li>
+                <li>Cooking/Baking</li>
+                <li>Reading</li>
+                <li>Going to the movies</li>
+            </ul>
+        </p>
+
+    <!-- Skills Table -->
+        <h2> Skills</h2>
+        <table>
+            <tr>
+                <th>Skill/Tool</th>
+                <th>Proficiency</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Proficient</td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- A Contact Form     -->
+     <footer>
+        <h2>Contact Me</h2>
+        <form action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="number">Phone Number:</label>
+            <input type="number" id="number" name="number">
+
+            <textarea name="message" id="message" rows="3" cols="20">
+                Enter your message here...
+            </textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+</body>
+</html>
