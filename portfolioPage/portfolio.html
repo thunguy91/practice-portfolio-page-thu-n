@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
@@ -10,15 +11,17 @@
     <!-- Header -->
     <header>
         <h1>Thu Nguyen</h1>
-        <p>Aspiring Web Developer</p>
+        <p><em>Aspiring Web Developer</em></p>
     </header>
 
     <!-- "About Me" Section -->
      <main>
         <h2>About Me</h2>
+        <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Macbook and desktop on table">
         <p> Hello! I am proud mom of two living in <strong>Philadelphia, PA</strong>.
             An aspiring web developer, I've always loved being creative and solving problems.
             My passion is to build websites that are fun but also meaningful as well as user-friendly.
+            <br>
             Some of my hobbies include:
             <ul>
                 <li>Food Crawls</li>
@@ -32,7 +35,7 @@
         <h2> Skills</h2>
         <table>
             <tr>
-                <th>Skill/Tool</th>
+                <th>Skill</th>
                 <th>Proficiency</th>
             </tr>
             <tr>
@@ -51,24 +54,36 @@
     </main>
 
     <!-- A Contact Form     -->
-     <footer>
         <h2>Contact Me</h2>
         <form action="/submit" method="POST">
+            <p>
             <label for="name">Name:</label>
+            <br>
             <input type="text" id="name" name="name">
+            </p>
 
+            <p>
             <label for="email">Email:</label>
+            <br>
             <input type="text" id="email" name="email">
+            </p>
 
+            <p>
             <label for="number">Phone Number:</label>
+            <br>
             <input type="number" id="number" name="number">
+            </p>
 
-            <textarea name="message" id="message" rows="3" cols="20">
-                Enter your message here...
-            </textarea>
+            <p>
+            <textarea name="message" id="message" rows="10" cols="30" placeholder="Enter your message here..."></textarea>
+            </p>
 
             <button type="submit">Submit</button>
         </form>
+    
+    <footer>
+        This page is made for the purpose of practice <em>only</em>. To see full list of practices, please visit
+        <a href="https://github.com/thunguy91?tab=repositories"><strong>here</strong></a>.
     </footer>
 </body>
 </html>
