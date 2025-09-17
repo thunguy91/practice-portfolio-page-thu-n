@@ -36,6 +36,9 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+th {
+    color:#094731;
+}
 td {
     font-size: 18px;
 }
@@ -46,4 +49,8 @@ footer {
 
 textarea{
     font-size: 14px;
+}
+button {
+    background-color: #094731;
+    color: #FCECE8;
 }
